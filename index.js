@@ -1,15 +1,5 @@
-const rawprint = require('winrawprinter');
-const snap7 = require('node-snap7');
-const { SerialPort } = require('serialport');
-const pad = require('pad');
-const { DelimiterParser } = require('@serialport/parser-delimiter');
 const axios = require('axios');
-var s7client = new snap7.S7Client();
-const moment = require('moment');
 const Sequelize = require('sequelize');
-const io = require('socket.io-client');
-
-let digital = 0;
 
 const tezgah = 'MNT-APT-037';
 let isWorkingt = false;
