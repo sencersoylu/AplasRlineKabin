@@ -16,8 +16,6 @@ const db_spoiler = new Sequelize('VW_VW_R_LINE', 'a_plas_user', 'bekod123', {
 	},
 });
 
-plc_connect(plcConfig.IP, plcConfig.rack, plcConfig.slot);
-
 setInterval(async () => {
 	try {
 		if (isWorkingt) {
