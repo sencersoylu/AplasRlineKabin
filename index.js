@@ -4,7 +4,7 @@ const Sequelize = require('sequelize');
 const tezgah = 'MNT-APT-037';
 let isWorkingt = false;
 
-const db_spoiler = new Sequelize('VW_VW_R_LINE', 'a_plas_user', 'bekod123', {
+const db_spoiler = new Sequelize('VW_VW_R_LINE', 'a_plas_user', '12345', {
 	dialect: 'mssql',
 	host: '127.0.0.1',
 	port: '1433',
